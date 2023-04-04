@@ -1,0 +1,12 @@
+.year{
+    font-size: 60px;
+}
+
+body{
+    padding-bottom: 30px;
+}
+
+.nav-link.activeAAAAAAAAA {
+    background-color: gray;
+    color: white;
+}

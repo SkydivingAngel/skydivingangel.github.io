@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link href="main.css" rel="stylesheet" type="text/css">
+
+        <title>Rick or Nick?</title>
+
+    </head>
+    <body>
+
+
+        <!-- https://getbootstrap.com/docs/5.0/components/navbar/ -->
+        <nav class="navbar fixed-top navbar-light navbar-expand-lg bg-light" style="background-color: #E5E7E9;">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-bottom">
+                    <span class="navbar-brand mb-0 h1">Rick or Nick?</span>
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <!--<li class="nav-item">
+                        <a class="nav-link" href="videos.html">Videos</a>
+                        </li>-->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="videos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Videos
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="videos.html#2017">2017</a></li>
+                                <li><a class="dropdown-item" href="videos.html#2016">2016</a></li>
+                                <li><a class="dropdown-item" href="videos.html#2015">2015</a></li>
+                                <li><a class="dropdown-item" href="videos.html#2014">2014</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>	
+                    </ul>
+
+                    <!--<form class="d-flex">
+<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+<button class="btn btn-outline-primary" type="submit">Search</button>
+</form>-->
+                </div>
+
+
+
+            </div>
+        </nav>
+<br>
+        <div class="container">
+
+            <div class="mt-4 p-3 bg-secondary text-white text-center rounded">
+                <h2>I'm currently...</h2>
+                <h1>Rick</h1>
+                <h2>...untill September 1st</h2>
+            </div>
+            <br>
+            <h1 class="text-center">This year's video</h1>
+            <br>
+            <div class="ratio ratio-16x9">
+                <iframe src="https://player.vimeo.com/video/216346769?h=dec32e18c4" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+        </div>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </body>
+</html>
